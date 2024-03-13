@@ -8,6 +8,7 @@ def lambda_handler(event,context):
     print(response.text)
     d={'col1':[1,2],'col2':[10,11]}
     df=pd.DataFrame(data=d)
+    print(df.dtypes)
     print(df)
     print("Demo Completed")
-    print("Hello World!")
+    print("Hello World! My Name is Shruti")
